@@ -19,10 +19,11 @@ Thanks to Black Friday, I picked up a TypeScript Udemy course to jump on the Typ
 - Union Types (_Multiple types separated with a | _)
 - Literal Types (_Specific Types, "as-number" or 5.12 _)
 - Type Aliases (_Allow you to encode your own custom types_)
-  ```
+  ```javascript
   type ConversionDescriptor = 'as-number' | 'as-text';
   ```
   you can also do things like:
-  ```
-  type User = { name: string; age: number }; const u1: User = { name: 'Max', age: 30 }; // this works!
+  ```javascript
+  type User = { name: string; age: number }; 
+  const u1: User = { name: 'Max', age: 30 }; // this works!
   ```
