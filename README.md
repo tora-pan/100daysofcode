@@ -2,7 +2,7 @@
 
 ## My official learning in public journey starts now 11/24/21! This is more of a way to keep track of my own progress and remeber what I have worked on day to day.<br><br>
 
-### Day # 1/100 (11/24/21) :
+## Day # 1/100 (11/24/21) :
 
 Thanks to Black Friday, I picked up a TypeScript Udemy course to jump on the TypeScript band waggon. A few things from today's study session:
 
@@ -33,7 +33,7 @@ Thanks to Black Friday, I picked up a TypeScript Udemy course to jump on the Typ
 
   <br>
 
-### Day # 2/100 (11/25/21) :
+## Day # 2/100 (11/25/21) :
 
 Happy Thanksgiving everyone!
 
@@ -65,3 +65,70 @@ To specifically include or exclude a file or files from being compiled in your p
 ```
 
 #### Setting sourceMap to true will give you access to your TypeScript files in the developer console.
+
+## Day # 3/100 (11/26/21) :
+
+### TypeScript / JavaScript
+
+- The "Rest" parameter  
+  _allows you to take a varying amount of parameters_
+
+```js
+const add = (...numbers: number[]) => {
+  return numbers.reduce((curResult, vurValue) => {
+    return curResult + curValue;
+  }, 0);
+};
+```
+- 
+
+### AWS Developer Assoicate
+
+- IAM (_Identity and Access Management, Global service_)
+  - ### Policies  
+    example below:
+  ```json
+  {
+    "Version": "2021-12-17",
+    "Id": "S3-Account-Permissions",
+    "Statement": [
+      {
+        "Sid": "1",
+        "Effect": "Allow",
+        "Principal": {
+          "AWS": [arn:aws:iam::123456789012:root"]
+        },
+        "Action":[
+          "s3:GetObject",
+          "s3:PutObject"
+        ],
+        "Resource":[arn:aws:s3:::mybucket/*"]
+      }
+    ]
+  }
+  ```
+  - Consists of
+    - Version: policy language version, always include "2012-10-17"
+    - Id: an identifier for the policy(optional)
+    - Statement: one or more individual statements(required)
+  - Statements consists of
+    - Sid: an identifier for the statement(optional)
+    - Effect: whether the statement allows or denies access(Allow,Deny)
+    - Principal: account/user/role to which this policy is applied to
+    - Action: list of actions this policy allows or denies
+    - Resource list of resources to which the actions are applied to
+    - Condition: conditions for when this policy is in effect(optional)<br><br>
+  - ### MFA(_Multi Factor Authentication_)
+    - Password + (device you own) => successful login
+  - ### Roles
+    - Just like permissions but for Services
+  - ### Best Practices
+    - Don't use the root account except for AWS account setup
+    - One physical user = One AWS user
+    - Assign users to groups and assign permissions to those groups
+    - Create a strong password policy
+    - Use and enforce the use of MFA
+    - Create and use Roles for giving permissions to AWS services
+    - Use Access Keys for Programmatic Access (CLI/SDK)
+    - Audit permissions of your account with the IAM Credentials Report
+    - **NEVER** share IAM users & Access Keys

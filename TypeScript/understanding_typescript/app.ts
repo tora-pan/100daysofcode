@@ -1,9 +1,9 @@
-type Combinable = number | string;
+class Department {
+  name: string;
 
-function combine(input1: number, input2: number) {
-  const result = input1 + input2;
-  return result;
+  constructor(n: string) {
+    this.name = n;
+  }
 }
 
-const combinedAges = combine(30, 26);
-console.log(combinedAges);
+const dept = new Department("Accounting");
