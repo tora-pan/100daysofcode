@@ -80,12 +80,11 @@ const add = (...numbers: number[]) => {
   }, 0);
 };
 ```
-- 
 
 ### AWS Developer Assoicate
 
 - IAM (_Identity and Access Management, Global service_)
-  - ### Policies  
+  - ### Policies
     example below:
   ```json
   {
