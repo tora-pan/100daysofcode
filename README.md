@@ -132,20 +132,25 @@ const add = (...numbers: number[]) => {
     - Audit permissions of your account with the IAM Credentials Report
     - **NEVER** share IAM users & Access Keys
 
-## Day # 4/100 (11/27/21) :  
+## Day # 4/100 (11/27/21) :
+
 ### S.O.L.I.D Design Principles
+
 - Single Responsibility Principle
   - A class should have one and only one reason to change, meaning that a class should have only one job.
 - Open/Closed Principle
   - Objects or entities should be open for extension but closed for modification.
-  _This means that a class should be extendable without modifying the class itself._
+    _This means that a class should be extendable without modifying the class itself._
 - Liskov Substitution Principle
   - The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass.
 - Interface Segregation Principle
   - A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
-  _the goal of the Interface Segregation Principle is to reduce the side effects and frequency of required changes by splitting the software into multiple, independent parts._
-- Dependency Inversion
+    _the goal of the Interface Segregation Principle is to reduce the side effects and frequency of required changes by splitting the software into multiple, independent parts._
+- Dependency Inversion Principle
   - Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
+
 ## Day # 5/100 (11/28/21) :
+
 ## Day # 6/100 (11/29/21) :
+
 ## Day # 7/100 (11/30/21) :
