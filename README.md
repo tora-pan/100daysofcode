@@ -2,8 +2,8 @@
 
 ## My official learning in public journey starts now 11/24/21! This is more of a way to keep track of my own progress and remeber what I have worked on day to day.<br><br>
 
-## Day # 1/100 (11/24/21) :
-
+<details>
+<summary>Day # 1/100 (11/24/21) :</summary>
 Thanks to Black Friday, I picked up a TypeScript Udemy course to jump on the TypeScript band waggon. A few things from today's study session:
 
 - Complile your .ts file with `tsc filename.ts`
@@ -31,9 +31,11 @@ Thanks to Black Friday, I picked up a TypeScript Udemy course to jump on the Typ
   const u1: User = { name: "Max", age: 30 }; // this works!
   ```
 
-  <br>
+</details>
 
-## Day # 2/100 (11/25/21) :
+<details>
+
+<summary>Day # 2/100 (11/25/21) :</summary>
 
 Happy Thanksgiving everyone!
 
@@ -66,7 +68,11 @@ To specifically include or exclude a file or files from being compiled in your p
 
 #### Setting sourceMap to true will give you access to your TypeScript files in the developer console.
 
-## Day # 3/100 (11/26/21) :
+</details>
+
+<details>
+
+<summary>Day # 3/100 (11/26/21) :</summary>
 
 ### TypeScript / JavaScript
 
@@ -132,7 +138,11 @@ const add = (...numbers: number[]) => {
     - Audit permissions of your account with the IAM Credentials Report
     - **NEVER** share IAM users & Access Keys
 
-## Day # 4/100 (11/27/21) :
+</details>
+
+<details>
+
+<summary>Day # 4/100 (11/27/21) :</summary>
 
 ### S.O.L.I.D Design Principles
 
@@ -149,8 +159,129 @@ const add = (...numbers: number[]) => {
 - Dependency Inversion Principle
   - Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
 
-## Day # 5/100 (11/28/21) :
+</details>
 
-## Day # 6/100 (11/29/21) :
+<details>
 
-## Day # 7/100 (11/30/21) :
+<summary>Day # 5/100 (11/28/21) :</summary>
+
+Today is the first time that I have ever run the command:
+
+```sh
+npx create-react-app typescript-flashcards --template typescript
+```
+
+Soon after that, I decided to take my own advice and not context switch. Rather than jumping straight into a React project with TypeScript, I decided to just continue along learning all that I can about TypeScript.
+
+**Advanced TypeScript Types**
+
+### Intersection Types
+
+Intersections Types are created with the "&"
+
+```ts
+type Admin = {
+  name: string;
+  privileges: string[];
+};
+
+type Employee = {
+  name: string;
+  startDate;
+  Date;
+};
+
+type ElevatedEmployee = Admin & Employee;
+```
+
+_when 2 union types are used, only the type in common gets used and when an object type is used, the new type is the combination of all properties_
+
+### Type Guards
+
+When you need to type check a union type or other overlapping type, you can can check it with the `typeof` operator or using `in` depending if it is built in type or user created type.
+
+```ts
+function move(pet: Fish | Bird) {
+  if ("swim" in pet) {
+    return pet.swim();
+  }
+  return pet.fly();
+}
+```
+
+```ts
+function add(num: number | string, num2: number | string) {
+  if (typeof num === "string" || typeof num2 === "string") {
+    return num.toString() + num2.toString();
+  }
+  return num + num2;
+}
+```
+
+### Discriminated Unions
+
+(available with object/interfaces)  
+_A common technique for working with unions is to have a single field which uses literal types which you can use to let TypeScript narrow down the possible current type._  
+Example:
+
+```ts
+interface Bird {
+  type: "bird";
+  flyingSpeed: number;
+}
+
+interface Horse {
+  type: "horse";
+  runningSpeed: number;
+}
+
+type Animal = Bird | Horse;
+
+function moveAnimal(animal: Animal) {
+  let speed;
+  switch (animal.type) {
+    case "bird":
+      speed = animal.flyingSpeed;
+      break;
+    case "horse":
+      speed = animal.runningSpeed;
+      break;
+  }
+  console.log("Moving at speed: " + speed);
+}
+
+moveAnimal({ type: "bird", flyingSpeed: 10 });
+```
+
+### Type Casting  
+This can be done using "<>" before an element or using "as ______" after
+
+### Function Overloads
+Adding the same function signature above with different parameter types followed by a ";".
+
+### Optional Chaining
+Using a ? after an object rather than checking if the object is not null.
+```js
+console.log(fetchedUserData?.job?.title);
+```
+
+### Nullish Coalescing
+You can use a "??" to return the right-hand operand when its left-hand operand is null or undefined.
+```js
+const storedData = userInput ?? 'DEFAULT';
+//if userInput is null, 'DEFAULT' will be set, if not, userInput will be used.
+```
+
+</details>
+
+<details>
+
+<summary>Day # 6/100 (11/29/21) :</summary>
+
+</details>
+
+<details>
+
+<summary>Day # 7/100 (11/30/21) :</summary>
+
+</details>
