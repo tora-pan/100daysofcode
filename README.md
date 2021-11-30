@@ -253,22 +253,28 @@ function moveAnimal(animal: Animal) {
 moveAnimal({ type: "bird", flyingSpeed: 10 });
 ```
 
-### Type Casting  
-This can be done using "<>" before an element or using "as ______" after
+### Type Casting
+
+This can be done using "<>" before an element or using "as **\_\_**" after
 
 ### Function Overloads
+
 Adding the same function signature above with different parameter types followed by a ";".
 
 ### Optional Chaining
+
 Using a ? after an object rather than checking if the object is not null.
+
 ```js
 console.log(fetchedUserData?.job?.title);
 ```
 
 ### Nullish Coalescing
+
 You can use a "??" to return the right-hand operand when its left-hand operand is null or undefined.
+
 ```js
-const storedData = userInput ?? 'DEFAULT';
+const storedData = userInput ?? "DEFAULT";
 //if userInput is null, 'DEFAULT' will be set, if not, userInput will be used.
 ```
 
@@ -278,6 +284,70 @@ const storedData = userInput ?? 'DEFAULT';
 
 <summary>Day # 6/100 (11/29/21) :</summary>
 
+Today we take a look at **Generics**
+
+```ts
+//Array Type
+const names: Array<string> = ["Travis", "Chris"];
+
+//Promise Type
+const promise: Promise<string> = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("This is done!");
+  }, 2000);
+});
+```
+
+**Generic Function**
+
+```ts
+function merge<T, U>(objA: T, objB: U) {
+  return Object.assign(objA, objB);
+}
+
+const mergedObj = merge({ name: "Travis" }, { age: 32 });
+console.log(mergedObj); // {name: 'Travis', age: 32}
+```
+
+This way, when we call this merge function, the type gets passed in and then used below.  
+Generic Types/Functions are very powerful.
+
+**Constraints**
+Using the "extends" followed by the type after the "T" and "U" in the code snippet above, you can explicitly set the type of the generic.
+
+```ts
+function merge<T extends object, U extends object>(objA: T, objB: U) {
+  //This will make sure that the items getting passed in have to be an object.
+}
+```
+
+**The 'keyof' Constraint**
+
+```ts
+function extractAndConvert<T extends object, U extends keyof T>(
+  obj: T,
+  key: U
+) {
+  return "Value: " + obj[key];
+}
+extractAndConvert({ name: "Travis" }, "name");
+```
+
+TypeScript will make sure that the the second argument is a valid key for the object passed in.
+
+**Decorators**
+
+- Class Decorators
+  - A Class Decorator is declared just before a class declaration. The class decorator is applied to the constructor of the class and can be used to observe, modify, or replace a class definition. A class decorator cannot be used in a declaration file, or in any other ambient context (such as on a declare class).The expression for the class decorator will be called as a function at runtime, with the constructor of the decorated class as its only argument.
+- Method Decorators
+  - A Method Decorator is declared just before a method declaration. The decorator is applied to the Property Descriptor for the method, and can be used to observe, modify, or replace a method definition. A method decorator cannot be used in a declaration file, on an overload, or in any other ambient context (such as in a declare class).
+- Accessor Decorators
+  - An Accessor Decorator is declared just before an accessor declaration. The accessor decorator is applied to the Property Descriptor for the accessor and can be used to observe, modify, or replace an accessor’s definitions. An accessor decorator cannot be used in a declaration file, or in any other ambient context (such as in a declare class).
+- Property Decorators
+  - A Property Decorator is declared just before a property declaration. A property decorator cannot be used in a declaration file, or in any other ambient context (such as in a declare class).
+- Parameter Decorators
+  - A Parameter Decorator is declared just before a parameter declaration. The parameter decorator is applied to the function for a class constructor or method declaration. A parameter decorator cannot be used in a declaration file, an overload, or in any other ambient context (such as in a declare class).
+
 </details>
 
 <details>
@@ -285,3 +355,4 @@ const storedData = userInput ?? 'DEFAULT';
 <summary>Day # 7/100 (11/30/21) :</summary>
 
 </details>
+```
