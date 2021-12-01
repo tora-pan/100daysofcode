@@ -354,5 +354,8 @@ TypeScript will make sure that the the second argument is a valid key for the ob
 
 <summary>Day # 7/100 (11/30/21) :</summary>
 
+**Drag and Drop in TypeScript**
+Started with the basics, setup a form using TS classes and implemented form input validation.
+
 </details>
 ```
