@@ -1,4 +1,4 @@
-//validation logic
+// Validation
 interface Validatable {
   value: string | number;
   required?: boolean;
@@ -8,45 +8,88 @@ interface Validatable {
   max?: number;
 }
 
-const validate = (validatableInput: Validatable): boolean => {
+function validate(validatableInput: Validatable) {
   let isValid = true;
-  const { value, required, minLength, maxLength, min, max } = validatableInput;
-  if (required) {
-    isValid = isValid && value.toString().trim().length > 0;
+  if (validatableInput.required) {
+    isValid = isValid && validatableInput.value.toString().trim().length !== 0;
   }
-  if (minLength) {
-    isValid = isValid && value.toString().length >= minLength;
+  if (
+    validatableInput.minLength != null &&
+    typeof validatableInput.value === "string"
+  ) {
+    isValid =
+      isValid && validatableInput.value.length >= validatableInput.minLength;
   }
-  if (maxLength) {
-    isValid = isValid && value.toString().length <= maxLength;
+  if (
+    validatableInput.maxLength != null &&
+    typeof validatableInput.value === "string"
+  ) {
+    isValid =
+      isValid && validatableInput.value.length <= validatableInput.maxLength;
   }
-  if (min != null) {
-    isValid = isValid && +value >= min;
+  if (
+    validatableInput.min != null &&
+    typeof validatableInput.value === "number"
+  ) {
+    isValid = isValid && validatableInput.value >= validatableInput.min;
   }
-  if (max != null) {
-    isValid = isValid && +value <= max;
+  if (
+    validatableInput.max != null &&
+    typeof validatableInput.value === "number"
+  ) {
+    isValid = isValid && validatableInput.value <= validatableInput.max;
   }
   return isValid;
-};
+}
 
-//autobind decorator
-function AutoBind(
-  _: any, //target but wont be using
-  _2: string, //methodName but wont be using
-  descriptor: PropertyDescriptor
-) {
+// autobind decorator
+function autobind(_: any, _2: string, descriptor: PropertyDescriptor) {
   const originalMethod = descriptor.value;
-  const adjustedDescriptor: PropertyDescriptor = {
+  const adjDescriptor: PropertyDescriptor = {
     configurable: true,
     get() {
       const boundFn = originalMethod.bind(this);
       return boundFn;
     },
   };
-  return adjustedDescriptor;
+  return adjDescriptor;
 }
 
-//project input class
+// ProjectList Class
+class ProjectList {
+  templateElement: HTMLTemplateElement;
+  hostElement: HTMLDivElement;
+  element: HTMLElement;
+
+  constructor(private type: "active" | "finished") {
+    this.templateElement = document.getElementById(
+      "project-list"
+    )! as HTMLTemplateElement;
+    this.hostElement = document.getElementById("app")! as HTMLDivElement;
+
+    const importedNode = document.importNode(
+      this.templateElement.content,
+      true
+    );
+    this.element = importedNode.firstElementChild as HTMLElement;
+    this.element.id = `${this.type}-projects`;
+    this.attach();
+    this.renderContent();
+  }
+
+  private renderContent() {
+    const listId = `${this.type}-projects-list`;
+    this.element.querySelector("ul")!.id = listId;
+    this.element.querySelector("h2")!.textContent =
+      this.type.toUpperCase() + " PROJECTS";
+  }
+
+  private attach() {
+    this.hostElement.insertAdjacentElement("beforeend", this.element);
+  }
+}
+
+// ProjectInput Class
 class ProjectInput {
   templateElement: HTMLTemplateElement;
   hostElement: HTMLDivElement;
@@ -59,7 +102,6 @@ class ProjectInput {
     this.templateElement = document.getElementById(
       "project-input"
     )! as HTMLTemplateElement;
-
     this.hostElement = document.getElementById("app")! as HTMLDivElement;
 
     const importedNode = document.importNode(
@@ -104,33 +146,31 @@ class ProjectInput {
       max: 5,
     };
 
-    //form validation
     if (
       !validate(titleValidatable) ||
       !validate(descriptionValidatable) ||
       !validate(peopleValidatable)
     ) {
-      alert("Invalid Input, please try again");
+      alert("Invalid input, please try again!");
       return;
     } else {
-      return [enteredTitle, enteredDescription, parseInt(enteredPeople)];
+      return [enteredTitle, enteredDescription, +enteredPeople];
     }
   }
 
-  //clear form input
   private clearInputs() {
     this.titleInputElement.value = "";
     this.descriptionInputElement.value = "";
     this.peopleInputElement.value = "";
   }
 
-  @AutoBind
+  @autobind
   private submitHandler(event: Event) {
     event.preventDefault();
     const userInput = this.gatherUserInput();
     if (Array.isArray(userInput)) {
-      const [title, dec, people] = userInput;
-      console.log(title, dec, people);
+      const [title, desc, people] = userInput;
+      console.log(title, desc, people);
       this.clearInputs();
     }
   }
@@ -145,3 +185,5 @@ class ProjectInput {
 }
 
 const prjInput = new ProjectInput();
+const activePrjList = new ProjectList("active");
+const finishedPrjList = new ProjectList("finished");

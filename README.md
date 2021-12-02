@@ -358,4 +358,13 @@ TypeScript will make sure that the the second argument is a valid key for the ob
 Started with the basics, setup a form using TS classes and implemented form input validation.
 
 </details>
-```
+
+<details>
+
+<summary>Day # 8/100 (12/01/21) :</summary>
+Going through more of a Udemy course today scratching my head because something wasn't working.
+Turns out, I didn't run `tsc -w` in my other terminal window. (facepalm)
+
+Spent the rest of the evening working on random interview style alogrithm questions. Fibonacci, FizzBuzz,etc...
+
+</details>
