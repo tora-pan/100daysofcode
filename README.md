@@ -368,3 +368,34 @@ Turns out, I didn't run `tsc -w` in my other terminal window. (facepalm)
 Spent the rest of the evening working on random interview style alogrithm questions. Fibonacci, FizzBuzz,etc...
 
 </details>
+
+<details>
+
+<summary>Day # 9/100 (12/02/21) :</summary>
+
+I know I'm a big advocate of not "context-hopping" but I have this Vue.js bug that I have to itch. I want to see the similarities between React and Vue.
+
+**What is Vue**  
+Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
+
+**Let's get started**
+
+```sh
+npm install vue
+```
+
+**Vue Components are all in 1 file!?**  
+One important thing to note is that separation of concerns is not equal to separation of file types. In modern UI development, we have found that instead of dividing the codebase into three huge layers that interweave with one another, it makes much more sense to divide them into loosely-coupled components and compose them. Inside a component, its template, logic and styles are inherently coupled, and collocating them actually makes the component more cohesive and maintainable.
+
+Even if you don’t like the idea of Single-File Components, you can still leverage its hot-reloading and pre-compilation features by separating your JavaScript and CSS into separate files:
+
+```js
+<!-- my-component.vue -->
+<template>
+  <div>This will be pre-compiled</div>
+</template>
+<script src="./my-component.js"></script>
+<style src="./my-component.css"></style>
+```
+
+</details>
