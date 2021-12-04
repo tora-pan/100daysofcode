@@ -399,3 +399,13 @@ Even if you don’t like the idea of Single-File Components, you can still lever
 ```
 
 </details>
+
+<details>
+
+<summary>Day # 10/100 (12/3/2021):</summary>
+
+This evening I spent most of my time playing around with Vue.
+Learned a bit more about:
+- Declarative Rendering `{{message}}`
+- Conditionals and Loops `<span v-if="isVisible">Now you see me</span>`
+</details>

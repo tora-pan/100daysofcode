@@ -47,9 +47,6 @@
 <script>
 export default {
   name: "TodoList",
-  props: {
-    msg: String,
-  },
 
   data() {
     return {
