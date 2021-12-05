@@ -406,6 +406,16 @@ Even if you don’t like the idea of Single-File Components, you can still lever
 
 This evening I spent most of my time playing around with Vue.
 Learned a bit more about:
+
 - Declarative Rendering `{{message}}`
 - Conditionals and Loops `<span v-if="isVisible">Now you see me</span>`
+</details>
+
+<details>
+
+<summary>Day # 11/100 (12/4/2021):</summary>
+
+Today I reimplemented my todolist in Vue from scratch.  
+I then created a quick Github Profile Display under the todo list using axios to fetch user info from the github API.
+
 </details>
