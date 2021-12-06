@@ -419,3 +419,43 @@ Today I reimplemented my todolist in Vue from scratch.
 I then created a quick Github Profile Display under the todo list using axios to fetch user info from the github API.
 
 </details>
+
+<details>
+
+<summary>Day # 12/100 (12/5/2021):</summary>
+Today I decided to bite the bullet and switch over VSCode to use Vim. This should be interesting.
+
+*v-bind*: takes an atribute in which the data will be bound to. _setting the value of an attribute_
+*v-on*: takes an argument after the colon which is an event. (_click, mouseEnter, mouseLeave, etc..._)  
+  
+**Event Modifiers**
+- .stop
+- .prevent
+- .capture
+- .self
+- .once
+- .passive
+
+```html
+<!-- the click event's propagation will be stopped -->
+<a v-on:click.stop="doThis"></a>
+
+<!-- the submit event will no longer reload the page -->
+<form v-on:submit.prevent="onSubmit"></form>
+
+<!-- modifiers can be chained -->
+<a v-on:click.stop.prevent="doThat"></a>
+
+<!-- just the modifier -->
+<form v-on:submit.prevent></form>
+
+<!-- use capture mode when adding the event listener -->
+<!-- i.e. an event targeting an inner element is handled here before being handled by that element -->
+<div v-on:click.capture="doThis">...</div>
+
+<!-- only trigger handler if event.target is the element itself -->
+<!-- i.e. not from a child element -->
+<div v-on:click.self="doThat">...</div>
+```
+
+</details>
