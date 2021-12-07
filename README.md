@@ -425,10 +425,11 @@ I then created a quick Github Profile Display under the todo list using axios to
 <summary>Day # 12/100 (12/5/2021):</summary>
 Today I decided to bite the bullet and switch over VSCode to use Vim. This should be interesting.
 
-*v-bind*: takes an atribute in which the data will be bound to. _setting the value of an attribute_
-*v-on*: takes an argument after the colon which is an event. (_click, mouseEnter, mouseLeave, etc..._)  
-  
+_v-bind_: takes an atribute in which the data will be bound to. _setting the value of an attribute_
+_v-on_: takes an argument after the colon which is an event. (_click, mouseEnter, mouseLeave, etc..._)
+
 **Event Modifiers**
+
 - .stop
 - .prevent
 - .capture
@@ -459,3 +460,14 @@ Today I decided to bite the bullet and switch over VSCode to use Vim. This shoul
 ```
 
 </details>
+
+<details>
+
+<summary>Day # 13/100 (12/6/2021):</summary>
+
+**Today is the day I recreate my flashcards-react-app in Vue**
+
+- Learned the correct way to pass props to a components.
+- Installed Cypress for testing and did a ton of reading.
+  - Tomorrow I plan on doing a deeper dive on cypress.
+  </details>
