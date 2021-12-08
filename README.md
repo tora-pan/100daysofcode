@@ -471,3 +471,30 @@ _v-on_: takes an argument after the colon which is an event. (_click, mouseEnter
 - Installed Cypress for testing and did a ton of reading.
   - Tomorrow I plan on doing a deeper dive on cypress.
   </details>
+
+<summary>Day # 14/100 (12/7/2021):</summary>
+
+**Methods vs Computed Properties vs Watchers**
+
+**Methods**
+
+- Use with event binding OR data binding.
+- Data binding: Method is executed for every "re-render" cycle of the component.
+- Use for events or data that really needs to be re-evaluated all of the time.
+
+**Computed Properties**
+
+- Use with data binding.
+- Computed properties are only re-evaluated if one of their "used values" changes.
+- Use for data that depends on other data.
+
+**Watchers**
+
+- Not sued directly in the template.
+- Allows you to run any code in reaction to some changed data(e.g. sending an HTTP request etc...)
+- Use for any non-data updates you want to make.
+
+- Learned the correct way to pass props to a components.
+- Installed Cypress for testing and did a ton of reading.
+  - Tomorrow I plan on doing a deeper dive on cypress.
+  </details>

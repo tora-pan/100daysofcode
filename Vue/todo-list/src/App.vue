@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    
-    <TodoList2></TodoList2>
+    <TodoList3 theProps="This is the props from App.vue"></TodoList3>
   </div>
 </template>
 
 <script>
-import TodoList2 from "./components/TodoList2.vue";
+import TodoList3 from "./components/TodoList3.vue";
 
 export default {
   name: "App",
   components: {
-    TodoList2,
+    TodoList3,
   },
 };
 </script>
