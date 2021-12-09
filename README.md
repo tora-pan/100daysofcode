@@ -472,6 +472,8 @@ _v-on_: takes an argument after the colon which is an event. (_click, mouseEnter
   - Tomorrow I plan on doing a deeper dive on cypress.
   </details>
 
+<details>
+
 <summary>Day # 14/100 (12/7/2021):</summary>
 
 **Methods vs Computed Properties vs Watchers**
@@ -490,11 +492,32 @@ _v-on_: takes an argument after the colon which is an event. (_click, mouseEnter
 
 **Watchers**
 
-- Not sued directly in the template.
+- Not used directly in the template.
 - Allows you to run any code in reaction to some changed data(e.g. sending an HTTP request etc...)
 - Use for any non-data updates you want to make.
 
 - Learned the correct way to pass props to a components.
-- Installed Cypress for testing and did a ton of reading.
-  - Tomorrow I plan on doing a deeper dive on cypress.
-  </details>
+
+</details>
+
+<details>
+
+<summary>Day # 15/100 (12/8/2021):</summary>
+
+Today I had this great idea to make a "mini-game" of sorts in Vue.
+
+**GetIntoTech**
+
+- Level up to get hired from the company of your dreams.
+  - 2 "health bars"
+    - Developer Skills
+    - Company Difficulty or possibility to hire or something.
+  - 4 buttons
+    - Take a Udemy Course
+    - Connect to people on LinkedIn
+    - Send out an application
+    - Grind LeetCode
+
+I was able to get a simple UI fleshed out and some basic functionality setup.
+
+</details>
