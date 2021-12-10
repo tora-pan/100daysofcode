@@ -521,3 +521,15 @@ Today I had this great idea to make a "mini-game" of sorts in Vue.
 I was able to get a simple UI fleshed out and some basic functionality setup.
 
 </details>
+
+<details>
+
+<summary>Day # 16/100 (12/9/2021):</summary>
+
+Today I spent most of my time working on the mini-game logic.
+
+- Implemented a stamina meter that decreases continuously.
+- Added a sleep function that restores your stamina but puts a freeze on the buttons for 3 seconds.
+- Implemented a modal popup if you run out of stamina that resets the game on close.
+
+</details>

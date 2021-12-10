@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <Header />
+    <!-- <Header /> -->
     <div class="container">
       <GameWindow />
     </div>
@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+// import Header from "./components/Header.vue";
 import GameWindow from "./components/GameWindow.vue";
 export default {
   name: "App",
   components: {
-    Header,
+    // Header,
     GameWindow,
   },
 };
@@ -25,8 +25,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #ffffff;
+  height: 100vh;
+  /* margin-top: 60px; */
+  background-color: rgb(57, 50, 121);
 }
 .container {
   display: flex;
@@ -40,7 +42,7 @@ export default {
 }
 
 html {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 body {
