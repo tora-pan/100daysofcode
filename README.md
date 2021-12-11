@@ -533,3 +533,13 @@ Today I spent most of my time working on the mini-game logic.
 - Implemented a modal popup if you run out of stamina that resets the game on close.
 
 </details>
+
+<details>
+
+<summary>Day # 17/100 (12/10/2021):</summary>
+
+After listening to a great podcast while sitting in a ton of traffic, I decided to try to put a little more effort towards learning CSS "in-depth." I have never really tried to learn it thoroughly and I'm honestly tired of throwing random properties at an element until it looks close to what I'm looking for. One day I want to know why things are working they way they are and be able to produce pixel perfect layouts given a design.  
+  
+Therefore, today I have decided to work on a simple FrontEndMentor project and brush up on my CSS skills.
+
+</details>

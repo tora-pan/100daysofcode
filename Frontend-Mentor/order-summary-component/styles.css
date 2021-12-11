@@ -1,0 +1,82 @@
+.container {
+  width: 1440px;
+  height: 900px;
+  background: hsla(255, 100%, 94%, 1)
+    url("./img/pattern-background-desktop.svg") no-repeat;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  position: relative;
+  color: hsl(224, 23%, 55%);
+  top: 102px;
+  width: 450px;
+  height: 700px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 11px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* .card-header {
+  height: 100px;
+  width: 100%;
+  background-position: contain;
+} */
+
+h2 {
+  color: hsl(223, 47%, 23%);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  align-items: center;
+  width: 70%;
+}
+
+.order-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  padding: 25px 100px 25px 20px;
+  line-height: 0.75;
+}
+.order-items a {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.title {
+  font-weight: 800;
+  color: hsl(223, 47%, 23%);
+}
+
+.cta-button {
+  width: 100%;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cancel-button {
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 800;
+  color: hsl(224, 23%, 55%);
+}
