@@ -543,3 +543,28 @@ After listening to a great podcast while sitting in a ton of traffic, I decided 
 Therefore, today I have decided to work on a simple FrontEndMentor project and brush up on my CSS skills.
 
 </details>
+
+<details>
+
+<summary>Day # 18/100 (12/11/2021):</summary>
+A few random CSS notes.  
+
+**Specificity**
+Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector. When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations. As per CSS rules, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.
+
+**Selector Types**
+1. Type selectors (e.g., h1) and pseudo-elements (e.g., ::before).
+2. Class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) and pseudo-classes (e.g., :hover).
+3. ID selectors (e.g., #example).
+
+_Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-class (:not()) have no effect on specificity. (The selectors declared inside :not() do, however.)_
+
+**Inline styles added to an element (e.g., style="font-weight: bold;") always overwrite any styles in external stylesheets, and thus can be thought of as having the highest specificity.**
+
+**The !important exception ruels of thumb**
+- **Always** look for a way to use specificity before even considering !important
+- **Only** use !important on page-specific CSS that overrides foreign CSS (from external libraries, like Bootstrap or normalize.css).
+- **Never** use !important when you're writing a plugin/mashup.
+- **Never** use !important on site-wide CSS.
+
+</details>
