@@ -568,3 +568,14 @@ _Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-clas
 - **Never** use !important on site-wide CSS.
 
 </details>
+
+<details>
+
+<summary>Day # 19 (12/12/2021):</summary>
+
+- How Vue looks under the hood.
+- Todo List
+- Rabbit DSA with Chris.
+- Brain F**** with python and "global" CONSTANTS (first time I wanted to get back into my JavaScript code)
+
+</details>

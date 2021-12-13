@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TodoList3 theProps="This is the props from App.vue"></TodoList3>
+    <TodoList3></TodoList3>
   </div>
 </template>
 
