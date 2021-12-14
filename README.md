@@ -579,3 +579,25 @@ _Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-clas
 - Brain F**** with python and "global" CONSTANTS (first time I wanted to get back into my JavaScript code)
 
 </details>
+
+<details>
+
+<summary>Day # 20 (12/13/2021):</summary>
+
+- Todo List ✔✔
+- How Vue Updates the DOM ✔✔
+- Vue Instance Lifecycle
+  - createApp()
+  - beforeCreate()
+  - created()
+  - beforeMount()
+  - mounted()
+  - DATA CHANGED
+    - beforeUpdate()
+    - updated()
+  - INSTANCE UNMOUNTED
+    - beforeUnmount()
+    - unmounted()
+
+
+</details>
