@@ -601,3 +601,9 @@ _Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-clas
 
 
 </details>
+
+<summary>Day # 21 (12/14/2021):</summary>
+
+Started off the evening with a bit more of Vue theory and then jumped into another project, this time a simple portfolio project to practice using components, props, and state management with VueX.
+
+</details>
