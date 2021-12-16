@@ -607,3 +607,18 @@ _Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-clas
 Started off the evening with a bit more of Vue theory and then jumped into another project, this time a simple portfolio project to practice using components, props, and state management with VueX.
 
 </details>
+
+<summary>Day # 22 (12/15/2021):</summary>
+
+**VueX**
+- Commit a Mutation
+- Dispatch an action
+
+**Vue Deeper Dive**
+- Global vs Local Components
+- Scoped Styles
+- Slots
+  - Named Slots (must name them if more than 1)
+  - `<template v-slot:NAMEOFSLOT>`
+  - Scoped Slots
+</details>
