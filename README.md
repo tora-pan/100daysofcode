@@ -538,8 +538,8 @@ Today I spent most of my time working on the mini-game logic.
 
 <summary>Day # 17/100 (12/10/2021):</summary>
 
-After listening to a great podcast while sitting in a ton of traffic, I decided to try to put a little more effort towards learning CSS "in-depth." I have never really tried to learn it thoroughly and I'm honestly tired of throwing random properties at an element until it looks close to what I'm looking for. One day I want to know why things are working they way they are and be able to produce pixel perfect layouts given a design.  
-  
+After listening to a great podcast while sitting in a ton of traffic, I decided to try to put a little more effort towards learning CSS "in-depth." I have never really tried to learn it thoroughly and I'm honestly tired of throwing random properties at an element until it looks close to what I'm looking for. One day I want to know why things are working they way they are and be able to produce pixel perfect layouts given a design.
+
 Therefore, today I have decided to work on a simple FrontEndMentor project and brush up on my CSS skills.
 
 </details>
@@ -547,21 +547,23 @@ Therefore, today I have decided to work on a simple FrontEndMentor project and b
 <details>
 
 <summary>Day # 18/100 (12/11/2021):</summary>
-A few random CSS notes.  
+A few random CSS notes.
 
 **Specificity**
 Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector. When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations. As per CSS rules, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.
 
 **Selector Types**
+
 1. Type selectors (e.g., h1) and pseudo-elements (e.g., ::before).
 2. Class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) and pseudo-classes (e.g., :hover).
 3. ID selectors (e.g., #example).
 
-_Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-class (:not()) have no effect on specificity. (The selectors declared inside :not() do, however.)_
+_Universal selector (\*), combinators (+, >, ~, ' ', ||) and negation pseudo-class (:not()) have no effect on specificity. (The selectors declared inside :not() do, however.)_
 
 **Inline styles added to an element (e.g., style="font-weight: bold;") always overwrite any styles in external stylesheets, and thus can be thought of as having the highest specificity.**
 
 **The !important exception ruels of thumb**
+
 - **Always** look for a way to use specificity before even considering !important
 - **Only** use !important on page-specific CSS that overrides foreign CSS (from external libraries, like Bootstrap or normalize.css).
 - **Never** use !important when you're writing a plugin/mashup.
@@ -576,7 +578,7 @@ _Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-clas
 - How Vue looks under the hood.
 - Todo List
 - Rabbit DSA with Chris.
-- Brain F**** with python and "global" CONSTANTS (first time I wanted to get back into my JavaScript code)
+- Brain F\*\*\*\* with python and "global" CONSTANTS (first time I wanted to get back into my JavaScript code)
 
 </details>
 
@@ -599,7 +601,6 @@ _Universal selector (*), combinators (+, >, ~, ' ', ||) and negation pseudo-clas
     - beforeUnmount()
     - unmounted()
 
-
 </details>
 
 <summary>Day # 21 (12/14/2021):</summary>
@@ -608,17 +609,21 @@ Started off the evening with a bit more of Vue theory and then jumped into anoth
 
 </details>
 
+<details>
+
 <summary>Day # 22 (12/15/2021):</summary>
 
 **VueX**
+
 - Commit a Mutation
 - Dispatch an action
 
 **Vue Deeper Dive**
+
 - Global vs Local Components
 - Scoped Styles
 - Slots
   - Named Slots (must name them if more than 1)
   - `<template v-slot:NAMEOFSLOT>`
   - Scoped Slots
-</details>
+  </details>
