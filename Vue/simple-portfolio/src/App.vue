@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Header from "./components/layout/TheHeader.vue";
 import AboutMe from "./components/AboutMe.vue";
 import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
-import Footer from "./components/Footer.vue";
+import Footer from "./components/layout/TheFooter.vue";
 
 export default {
   name: "App",
@@ -35,6 +35,14 @@ export default {
 </script>
 
 <style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -46,7 +54,12 @@ export default {
   margin: 0;
   padding: 0;
 }
-.container{
+
+.root-container {
+  width: 100%;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;

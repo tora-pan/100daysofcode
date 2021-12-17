@@ -627,3 +627,14 @@ Started off the evening with a bit more of Vue theory and then jumped into anoth
   - `<template v-slot:NAMEOFSLOT>`
   - Scoped Slots
   </details>
+
+<details>
+
+
+<summary>Day # 23 (12/16/2021):</summary>
+
+Took it easy today and spent my entire evening messing around on the simple portfolio vue project I started's CSS.  
+  
+CSS Pros blow me away. Mad props to people who fully understand what is going on under the hood in CSS.
+
+</details>

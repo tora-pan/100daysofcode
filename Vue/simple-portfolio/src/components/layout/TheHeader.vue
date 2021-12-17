@@ -32,7 +32,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 ul {
   list-style-type: none;
 }
@@ -44,27 +44,29 @@ a {
 li:hover {
   transform: rotate(2deg);
 }
-a:hover{
-    color:blue;
+a:hover {
+  color: blue;
 }
 
 .header {
   display: flex;
   justify-content: end;
-  margin-right: 10px;
-  right: 0;
+  padding-right: 20px;
+  align-items: center;
   height: 100px;
+  background-color: cornflowerblue;
 }
 
+
 .links {
-  margin-right: 50px;
-  margin-top: 50px;
+  /* background-color: cornflowerblue; */
   opacity: 0;
-  transition: 300ms ease-in;
+  margin-top:150px;
+transition: 300ms ease-in;
 }
 .links.active {
   opacity: 1;
-  transform: translateX(-100px);
+  transform: translateX(-60px);
 }
 
 #hamburger {
