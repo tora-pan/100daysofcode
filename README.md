@@ -630,11 +630,20 @@ Started off the evening with a bit more of Vue theory and then jumped into anoth
 
 <details>
 
-
 <summary>Day # 23 (12/16/2021):</summary>
 
-Took it easy today and spent my entire evening messing around on the simple portfolio vue project I started's CSS.  
-  
+Took it easy today and spent my entire evening messing around on the simple portfolio vue project I started's CSS.
+
 CSS Pros blow me away. Mad props to people who fully understand what is going on under the hood in CSS.
+
+</details>
+
+<details>
+
+<summary>Day # 24 (12/17/2021):</summary>
+
+- Simple Vue Portfolio
+- VueX
+- Looked into a bug in a fellow developers code.
 
 </details>

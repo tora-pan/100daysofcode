@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container" id="about">
     <div class="left-side">
-      <h1 class="title">Travis Pandos</h1>
+      <h1 class="title">My Name is {{$store.getters.getCurrentUser}}</h1>
       <h3 class="headline">
         I'm a full stack developer who speaks Japanese and is ready to turn some
         heads.
