@@ -647,3 +647,11 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 - Looked into a bug in a fellow developers code.
 
 </details>
+
+<summary>Day # 25 (12/17/2021):</summary>
+
+- Purchased domain for future business endevors. ✔
+- Start fresh React/Vue project of future business. ✔
+- Add all inital components, pages, and packages. ✔
+
+</details>
