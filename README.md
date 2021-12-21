@@ -650,7 +650,7 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 
 <details>
 
-<summary>Day # 25 (12/17/2021):</summary>
+<summary>Day # 25 (12/18/2021):</summary>
 
 - Purchased domain for future business endevors. ✔
 - Start fresh React/Vue project of future business. ✔
@@ -660,9 +660,21 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 
 <details>
 
-<summary>Day # 26 (12/18/2021):</summary>
+<summary>Day # 26 (12/19/2021):</summary>
 
 - Added a cool card component to the shop page.
 - Looking to get into user login-registration tomorrow.
+
+</details>
+
+<details>
+
+<summary>Day # 27 (12/20/2021):</summary>
+
+Continue working on AlawaysZenCeramics.com
+
+Went back to a previous react/redux ecommerce store I build with a Udemy course to refresh my knowledge of Firebase Authenticaiton.
+
+Also broke the website in to a few smaller components.
 
 </details>
