@@ -678,3 +678,15 @@ Went back to a previous react/redux ecommerce store I build with a Udemy course 
 Also broke the website in to a few smaller components.
 
 </details>
+
+<details>
+
+<summary>Day # 28 (12/21/2021):</summary>
+
+**AlwaysZenCeramics.com**
+
+- Added Firebase User Auth
+- Added a UserContext to be able to access the logged in user info at any time.
+- Added a few pictures to the home page.
+
+</details>
