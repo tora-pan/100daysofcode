@@ -690,3 +690,13 @@ Also broke the website in to a few smaller components.
 - Added a few pictures to the home page.
 
 </details>
+
+<details>
+
+<summary>Day # 29 (12/22/2021):</summary>
+
+Today I worked on a take home assessment given to a fellow div.  
+Got the Node.js/Express server running with postgreSQL as the database.  
+Simple Client was created with Vue.
+
+</details>
