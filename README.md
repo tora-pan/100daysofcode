@@ -700,3 +700,12 @@ Got the Node.js/Express server running with postgreSQL as the database.
 Simple Client was created with Vue.
 
 </details>
+
+<details>
+
+<summary> Day #30 (12/23/2021):</summary>
+
+- Finish up the take home assessment.
+- Added the addCar functionality.
+
+</details>
