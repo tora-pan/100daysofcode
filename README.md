@@ -573,7 +573,7 @@ _Universal selector (\*), combinators (+, >, ~, ' ', ||) and negation pseudo-cla
 
 <details>
 
-<summary>Day # 19 (12/12/2021):</summary>
+<summary>Day # 19/100 (12/12/2021):</summary>
 
 - How Vue looks under the hood.
 - Todo List
@@ -584,7 +584,7 @@ _Universal selector (\*), combinators (+, >, ~, ' ', ||) and negation pseudo-cla
 
 <details>
 
-<summary>Day # 20 (12/13/2021):</summary>
+<summary>Day # 20/100 (12/13/2021):</summary>
 
 - Todo List ✔✔
 - How Vue Updates the DOM ✔✔
@@ -603,7 +603,9 @@ _Universal selector (\*), combinators (+, >, ~, ' ', ||) and negation pseudo-cla
 
 </details>
 
-<summary>Day # 21 (12/14/2021):</summary>
+<details>
+
+<summary>Day # 21/100 (12/14/2021):</summary>
 
 Started off the evening with a bit more of Vue theory and then jumped into another project, this time a simple portfolio project to practice using components, props, and state management with VueX.
 
@@ -611,7 +613,7 @@ Started off the evening with a bit more of Vue theory and then jumped into anoth
 
 <details>
 
-<summary>Day # 22 (12/15/2021):</summary>
+<summary>Day # 22/100 (12/15/2021):</summary>
 
 **VueX**
 
@@ -630,7 +632,7 @@ Started off the evening with a bit more of Vue theory and then jumped into anoth
 
 <details>
 
-<summary>Day # 23 (12/16/2021):</summary>
+<summary>Day # 23/100 (12/16/2021):</summary>
 
 Took it easy today and spent my entire evening messing around on the simple portfolio vue project I started's CSS.
 
@@ -640,7 +642,7 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 
 <details>
 
-<summary>Day # 24 (12/17/2021):</summary>
+<summary>Day # 24/100 (12/17/2021):</summary>
 
 - Simple Vue Portfolio
 - VueX
@@ -650,7 +652,7 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 
 <details>
 
-<summary>Day # 25 (12/18/2021):</summary>
+<summary>Day # 25/100 (12/18/2021):</summary>
 
 - Purchased domain for future business endevors. ✔
 - Start fresh React/Vue project of future business. ✔
@@ -660,7 +662,7 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 
 <details>
 
-<summary>Day # 26 (12/19/2021):</summary>
+<summary>Day # 26/100 (12/19/2021):</summary>
 
 - Added a cool card component to the shop page.
 - Looking to get into user login-registration tomorrow.
@@ -669,7 +671,7 @@ CSS Pros blow me away. Mad props to people who fully understand what is going on
 
 <details>
 
-<summary>Day # 27 (12/20/2021):</summary>
+<summary>Day # 27/100 (12/20/2021):</summary>
 
 Continue working on AlawaysZenCeramics.com
 
@@ -681,7 +683,7 @@ Also broke the website in to a few smaller components.
 
 <details>
 
-<summary>Day # 28 (12/21/2021):</summary>
+<summary>Day # 28/100 (12/21/2021):</summary>
 
 **AlwaysZenCeramics.com**
 
@@ -693,7 +695,7 @@ Also broke the website in to a few smaller components.
 
 <details>
 
-<summary>Day # 29 (12/22/2021):</summary>
+<summary>Day # 29/100 (12/22/2021):</summary>
 
 Today I worked on a take home assessment given to a fellow div.  
 Got the Node.js/Express server running with postgreSQL as the database.  
@@ -703,9 +705,19 @@ Simple Client was created with Vue.
 
 <details>
 
-<summary> Day #30 (12/23/2021):</summary>
+<summary> Day #30/100 (12/23/2021):</summary>
 
 - Finish up the take home assessment.
 - Added the addCar functionality.
+
+</details>
+
+<details>
+
+<summary>Day # 31/100 (12/24/2021):</summary>
+
+**Merry Christmas Eve**
+
+
 
 </details>
