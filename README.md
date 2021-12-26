@@ -721,3 +721,16 @@ Simple Client was created with Vue.
 
 
 </details>
+
+<details>
+
+<summary>Day # 32/100 (12/25/2021):</summary>
+
+**Merry Christmas!**
+
+- going through a mini Vue/Vuex shopping cart blog on digitalocean.
+
+
+
+</details>
+
