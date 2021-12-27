@@ -718,8 +718,6 @@ Simple Client was created with Vue.
 
 **Merry Christmas Eve**
 
-
-
 </details>
 
 <details>
@@ -730,7 +728,17 @@ Simple Client was created with Vue.
 
 - going through a mini Vue/Vuex shopping cart blog on digitalocean.
 
-
-
 </details>
 
+<details>
+
+<summary>Day # 33/100 (12/26/2021):</summary>
+
+- Finish up the vuex shopping cart project.
+- Help user on digitalocean blog with an issue with their code.
+  - Realzied their issue was that they were comparing a string to an int. (fixed code below)
+  ```
+  ... parseInt(req.params.id);
+  ```
+
+</details>
