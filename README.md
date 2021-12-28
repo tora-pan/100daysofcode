@@ -742,3 +742,11 @@ Simple Client was created with Vue.
   ```
 
 </details>
+
+<details>
+
+<summary>Day # 34/100 (12/27/2021):</summary>
+
+- Call with David Marshall to help him out with his Vue 2 App.
+
+</details>
