@@ -750,3 +750,12 @@ Simple Client was created with Vue.
 - Call with David Marshall to help him out with his Vue 2 App.
 
 </details>
+
+<details>
+
+<summary>Day # 35/100 (12/28/2021):</summary>
+
+- Scratch my head dealing with firebase database bugs.
+
+</details>
+
