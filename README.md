@@ -759,3 +759,13 @@ Simple Client was created with Vue.
 
 </details>
 
+<details>
+
+<summary>Day # 36/100 (12/29/2021):</summary>
+
+- Going to start a fresh Vue.js project for AlwaysZenCeramics
+  - Looking into routing.
+  - Going to use Vuex for state management.
+  - Firebase for Authentication and storing data.
+
+</details>
