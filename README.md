@@ -769,3 +769,12 @@ Simple Client was created with Vue.
   - Firebase for Authentication and storing data.
 
 </details>
+
+<details>
+
+<summary>Day # 37/100 (12/30/2021):</summary>
+
+- Firebase helper methods for adding info to the database completed.
+- Need to setup the google auth etc...
+
+</details>
