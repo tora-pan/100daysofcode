@@ -778,3 +778,12 @@ Simple Client was created with Vue.
 - Need to setup the google auth etc...
 
 </details>
+
+<details>
+
+<summary>Day # 38/100 (12/31/2021):</summary>
+
+- Finished all of the google O-Auth w/ firebase.
+  - The user can now login and their name gets displayed as well as a link to logout.
+
+</details>
