@@ -787,3 +787,14 @@ Simple Client was created with Vue.
   - The user can now login and their name gets displayed as well as a link to logout.
 
 </details>
+
+<details>
+
+<summary>Day # 39/100 (1/1/2022):</summary>
+
+**Happy New Year!**
+
+- Another day working on AlwaysZenCeramics!
+- Worked out Firebase bugs and added a card component.
+
+</details>
