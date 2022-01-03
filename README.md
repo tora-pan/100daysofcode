@@ -798,3 +798,13 @@ Simple Client was created with Vue.
 - Worked out Firebase bugs and added a card component.
 
 </details>
+
+<details>
+
+<summary>Day # 40/100 (1/2/2022):</summary>
+
+**Always Zen Ceramics**
+
+- Add "add to cart" feature as well as shopping cart & badge icon.
+
+</details>
