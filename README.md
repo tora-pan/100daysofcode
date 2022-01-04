@@ -808,3 +808,12 @@ Simple Client was created with Vue.
 - Add "add to cart" feature as well as shopping cart & badge icon.
 
 </details>
+
+<details>
+
+<summary>Day # 41/100 (1/3/2022):</summary>
+
+- Added the cartDropdown Component as well as the functionality.
+  - Need to work on the styling still.
+
+</details>
