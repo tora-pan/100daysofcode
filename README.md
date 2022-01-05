@@ -817,3 +817,12 @@ Simple Client was created with Vue.
   - Need to work on the styling still.
 
 </details>
+
+<details>
+
+<summary>Day # 42/100 (1/4/2022):</summary>
+
+- Spent the evening working a little bit with styling Always Zen Ceramics.
+  - AKA: Took it easy.
+
+</details>
