@@ -826,3 +826,14 @@ Simple Client was created with Vue.
   - AKA: Took it easy.
 
 </details>
+
+<details>
+
+<summary>Day # 43/100 (1/5/2022):</summary>
+
+**Happy Birthday Mom...**
+_Gone but not forgotten_
+
+- Meeting with Josh Medeski to chat about Vim and learn a thing or two.
+
+</details>
