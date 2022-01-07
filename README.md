@@ -837,3 +837,13 @@ _Gone but not forgotten_
 - Meeting with Josh Medeski to chat about Vim and learn a thing or two.
 
 </details>
+
+<details>
+
+<summary>Day # 43/100 (1/5/2022):</summary>
+
+- Add remove from cart Vuex functionality.
+- Persist cart data in local storage.
+  - added an initilizeStore mutation that gets commited before the app gets created.
+
+</details>
