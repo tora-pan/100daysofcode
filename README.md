@@ -840,10 +840,23 @@ _Gone but not forgotten_
 
 <details>
 
-<summary>Day # 43/100 (1/5/2022):</summary>
+<summary>Day # 44/100 (1/6/2022):</summary>
 
 - Add remove from cart Vuex functionality.
 - Persist cart data in local storage.
   - added an initilizeStore mutation that gets commited before the app gets created.
+
+</details>
+
+<details>
+
+<summary>Day # 45/100 (1/7/2022):</summary>
+
+# Happy Birthday To Me!
+
+**Just because it's my birthday, doesn't mean I'm taking a day off!**
+
+- Add TailwindCSS to the project
+- Convert the Header and Dropdown to use TailwindCSS
 
 </details>
