@@ -860,3 +860,13 @@ _Gone but not forgotten_
 - Convert the Header and Dropdown to use TailwindCSS
 
 </details>
+
+<details>
+
+<summary>Day # 46/100 (1/8/2022):</summary>
+
+Taking it easy.
+
+Going to read the tailwind docs for a few.
+
+</details>
