@@ -870,3 +870,14 @@ Taking it easy.
 Going to read the tailwind docs for a few.
 
 </details>
+
+<details>
+
+<summary>Day # 47/100 (1/9/2022):</summary>
+
+**More Fun With TailwindCSS**
+- learned about creating your own components.
+- added a button component with primary and secondary colors.
+
+
+</summary>
