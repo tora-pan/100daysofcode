@@ -876,8 +876,18 @@ Going to read the tailwind docs for a few.
 <summary>Day # 47/100 (1/9/2022):</summary>
 
 **More Fun With TailwindCSS**
+
 - learned about creating your own components.
 - added a button component with primary and secondary colors.
 
-
 </summary>
+
+<details>
+
+<summary>Day # 48/100 (1/10/2022):</summary>
+
+- Added "favoriting" functionality to the store.
+- Added a bit of styling.
+- Added a "HeaderDropdownIcon" component.
+
+</details>
