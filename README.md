@@ -891,3 +891,13 @@ Going to read the tailwind docs for a few.
 - Added a "HeaderDropdownIcon" component.
 
 </details>
+
+<details>
+
+<summary>Day # 49/100 (1/11/2022):</summary>
+
+- Created a super awesome notion board to start applying to jobs and stay on top of everything.
+- Sent my first cold applications on Indeed.
+- Looking forward to connecting with recruiters and trying to land a job.
+
+</details>
