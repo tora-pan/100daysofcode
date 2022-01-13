@@ -901,3 +901,20 @@ Going to read the tailwind docs for a few.
 - Looking forward to connecting with recruiters and trying to land a job.
 
 </details>
+
+<details>
+
+<summary>Day # 50/100 (1/12/2022):</summary>
+
+- Since today we are at the half way point, I'm going to do a bit of context hopping.
+- I have a future potential interview possibly and their team is using:
+
+  - React
+  - Redux Tool Kit
+  - Typescript
+  - Styled Components
+    **Need to make sure I can manage just incase I am thrown in the deep end**
+
+- What I actually ended up doing was create a good looking developer resume.
+
+</details>
