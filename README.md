@@ -918,3 +918,13 @@ Going to read the tailwind docs for a few.
 - What I actually ended up doing was create a good looking developer resume.
 
 </details>
+
+<details>
+
+<summary>Day # 51/100 (1/13/2022):</summary>
+
+After a 13 hour shift, there wasn't much brain power left in this mind of mine.
+
+Decided to spend the evening passively listening to Mark Erikson / Jason Lengstorf discussing how to learn "Modern Redux."
+
+</details>
