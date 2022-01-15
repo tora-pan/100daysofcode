@@ -928,3 +928,12 @@ After a 13 hour shift, there wasn't much brain power left in this mind of mine.
 Decided to spend the evening passively listening to Mark Erikson / Jason Lengstorf discussing how to learn "Modern Redux."
 
 </details>
+
+<details>
+
+<summary>Day # 52/100 (1/14/2022):</summary>
+
+- Going to work on AlwaysZenCeramics for a bit.
+  - implemented a liked items page that passes in the liked items from the vuex store and renders individual cards.
+
+</details>
