@@ -937,3 +937,14 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
   - implemented a liked items page that passes in the liked items from the vuex store and renders individual cards.
 
 </details>
+
+<details>
+
+<summary>Day # 53/100 (1/15/2022):</summary>
+
+**MiniProject**
+
+- Time to take a little break to work on a mini React....Then Vue... Tic Tac Toe project.
+- Took care of the react version. Will work on the Vue version tomorrow.
+
+</details>
