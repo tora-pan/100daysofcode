@@ -948,3 +948,14 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 - Took care of the react version. Will work on the Vue version tomorrow.
 
 </details>
+
+<details>
+
+<summary>Day # 54/100 (1/15/2022):</summary>
+
+- Refactor React Tac Toe and upload on Stackblitz for a mentor of mine.
+- Copied over project.
+
+- Looking into Next.js for a possible blog app? maybe? haha
+
+</details>
