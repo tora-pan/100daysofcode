@@ -959,3 +959,11 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 - Looking into Next.js for a possible blog app? maybe? haha
 
 </details>
+
+<details>
+
+<summary>Day # 55/100 (1/16/2022):</summary>
+
+- Spent the evening watching videos on RTK whilist researching and applying to jobs... Shhhhh
+
+</details>
