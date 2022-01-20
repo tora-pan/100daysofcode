@@ -951,7 +951,7 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 
 <details>
 
-<summary>Day # 54/100 (1/15/2022):</summary>
+<summary>Day # 54/100 (1/16/2022):</summary>
 
 - Refactor React Tac Toe and upload on Stackblitz for a mentor of mine.
 - Copied over project.
@@ -962,8 +962,25 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 
 <details>
 
-<summary>Day # 55/100 (1/16/2022):</summary>
+<summary>Day # 55/100 (1/17/2022):</summary>
 
 - Spent the evening watching videos on RTK whilist researching and applying to jobs... Shhhhh
+
+</details>
+
+<details>
+
+<summary>Day # 56/100 (1/18/2022):</summary>
+
+- Starting fresh with React and Typescript.
+- Working on a blog project (following youtube) for Typescript/React practice.
+
+</details>
+
+<details>
+
+<summary>Day # 57/100 (1/18/2022):<summary>
+
+- Continue following along learning Typescript Day 2.
 
 </details>
