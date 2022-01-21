@@ -882,6 +882,8 @@ Going to read the tailwind docs for a few.
 
 </summary>
 
+</details>
+
 <details>
 
 <summary>Day # 48/100 (1/10/2022):</summary>
@@ -982,5 +984,22 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 <summary>Day # 57/100 (1/18/2022):<summary>
 
 - Continue following along learning Typescript Day 2.
+
+</details>
+
+<details>
+
+<summary>Day # 58/100 (1/19/2022):</summary>
+
+- Spent most of the evening trying to figure out how to convert over some code into React Router V6 but ended up just downgrading to V5.2
+
+</details>
+
+<details>
+
+<summary>Day # 59/100 (1/20/2022):</summary>
+
+- Started off the evening applying to jobs on linkedin.
+- Finished up with watching some youtube videos on Typescript/react and reading the docs.
 
 </details>
