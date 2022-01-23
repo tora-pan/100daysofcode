@@ -981,7 +981,7 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 
 <details>
 
-<summary>Day # 57/100 (1/18/2022):<summary>
+<summary>Day # 57/100 (1/18/2022):</summary>
 
 - Continue following along learning Typescript Day 2.
 
@@ -1001,5 +1001,36 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 
 - Started off the evening applying to jobs on linkedin.
 - Finished up with watching some youtube videos on Typescript/react and reading the docs.
+
+</details>
+
+<details>
+
+<summary>Day # 60/100 (1/21/2022):</summary>
+
+- Passive learning / updated github profile.
+
+</details>
+
+<details>
+
+<summary>Day # 61/100 (1/22/2022):</summary>
+
+- Spent my entire evening leveling up in codewars. I really love this platform. Much easier to get going than leetcode which is a super boost of confidence. Here is a pretty awesome way to create a phone number format when given an array of 10 digits.
+
+```js
+function createPhoneNumber(numbers){
+  var format = "(xxx) xxx-xxxx";
+  
+  for(var i = 0; i < numbers.length; i++)
+  {
+    format = format.replace('x', numbers[i]);
+  }
+  
+  return format;
+}
+```
+
+I think I will be working on DSAs for a few weeks straight and then get back into doing projects + DSAs.
 
 </details>
