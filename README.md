@@ -1019,18 +1019,26 @@ Decided to spend the evening passively listening to Mark Erikson / Jason Lengsto
 - Spent my entire evening leveling up in codewars. I really love this platform. Much easier to get going than leetcode which is a super boost of confidence. Here is a pretty awesome way to create a phone number format when given an array of 10 digits.
 
 ```js
-function createPhoneNumber(numbers){
+function createPhoneNumber(numbers) {
   var format = "(xxx) xxx-xxxx";
-  
-  for(var i = 0; i < numbers.length; i++)
-  {
-    format = format.replace('x', numbers[i]);
+
+  for (var i = 0; i < numbers.length; i++) {
+    format = format.replace("x", numbers[i]);
   }
-  
+
   return format;
 }
 ```
 
 I think I will be working on DSAs for a few weeks straight and then get back into doing projects + DSAs.
+
+</details>
+
+<details>
+
+<summary>Day # 62/100 (1/23/2022):</summary>
+
+- Another day another algorithm.
+  5kyu The Clockwise Spiral
 
 </details>
