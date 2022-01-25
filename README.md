@@ -1045,7 +1045,7 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 
 <details>
 
-<summary>Day # 63/100 (1/23/2022):</summary>
+<summary>Day # 63/100 (1/24/2022):</summary>
 
 - Quick dive into Vue + Nuxt.js
   - worked on a Movie DB like the one on my portfolio just using Vue and Nuxt.
