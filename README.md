@@ -1051,3 +1051,13 @@ I think I will be working on DSAs for a few weeks straight and then get back int
   - worked on a Movie DB like the one on my portfolio just using Vue and Nuxt.
 
 </details>
+
+<details>
+
+<summary>Day # 64/100 (1/25/2022):</summary>
+
+- Install Elixir
+- Install Poenix
+- Create an API with Phoenix
+
+</details>
