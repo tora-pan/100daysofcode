@@ -1061,3 +1061,13 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Create an API with Phoenix
 
 </details>
+
+<details>
+
+<summary>Day # 65/100 (1/26/2022):</summary>
+
+**I got introduced to an amazing person from my mentor today and may have just gotten things heading in the right direction. Fingers Crossed!**
+
+- Today I'm going to dive back into Node.js to create a more robust backend API using _Express_
+
+</details>
