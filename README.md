@@ -1071,3 +1071,17 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Today I'm going to dive back into Node.js to create a more robust backend API using _Express_
 
 </details>
+
+<details>
+
+<summary>Day # 66/100 (1/27/2022):</summary>
+
+**Time to start a decent sized project**
+# Trello for Job Application Tracking
+
+## Tech Stack
+- Vue
+- Nuxt
+- Firebase
+
+</details>
