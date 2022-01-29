@@ -1077,11 +1077,21 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 <summary>Day # 66/100 (1/27/2022):</summary>
 
 **Time to start a decent sized project**
+
 # Trello for Job Application Tracking
 
 ## Tech Stack
+
 - Vue
 - Nuxt
 - Firebase
+
+</details>
+
+<details>
+
+<summary>Day 67/100 (1/28/2022):</summary>
+
+- The entire evening was spent in "Learn Vim" in VSCode.
 
 </details>
