@@ -1095,3 +1095,12 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - The entire evening was spent in "Learn Vim" in VSCode.
 
 </details>
+
+<details>
+
+<summary>Day 68/100 (1/29/2022):</summary>
+
+- Started off by getting sidetracked and editing my linkedin profile picture...
+- Answered 2 katas on CodeWars
+
+</details>
