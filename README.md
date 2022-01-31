@@ -1104,3 +1104,11 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Answered 2 katas on CodeWars
 
 </details>
+
+<details>
+
+<summary>Day 69/100 (1/30/2022):</summary>
+
+- Deep dive into React Hooks (again).
+
+</details>
