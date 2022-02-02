@@ -1112,3 +1112,23 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Deep dive into React Hooks (again).
 
 </details>
+
+<details>
+
+<summary>Day 70/100 (1/31/2022):</summary>
+
+- Work on take home assessment for Sytem76!
+
+**Vue Frontend connecting to an Elixir Backend API**
+
+</details>
+
+<details>
+
+<summary>Day 71/100 (2/1/2022):</summary>
+
+- Work on take home assessment for Sytem76! (Still!)
+
+**Vue Frontend connecting to an Elixir Backend API**
+
+</details>
