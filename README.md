@@ -1132,3 +1132,32 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 **Vue Frontend connecting to an Elixir Backend API**
 
 </details>
+
+<details>
+
+<summary>Day 72/100 (2/2/2022):</summary>
+
+- Work on take home assessment for Sytem76! (Still!)
+
+**Vue Frontend connecting to an Elixir Backend API**
+
+</details>
+
+<details>
+
+<summary>Day 73/100 (2/3/2022):</summary>
+
+- Looking into AVA and TestCafe to add testing to my take home assessment for System76!
+  - AVA: Node.js test runner
+  - TestCafe Node.js test tool to automate end-to-end testing
+
+</details>
+
+<details>
+
+<summary>Day 74/100 (2/4/2022):</summary>
+
+- Finally going to take a minor break.
+- Time to brush up on my git knowledge after digging a huge hole in my repo today.
+
+</details>
