@@ -1161,3 +1161,12 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Time to brush up on my git knowledge after digging a huge hole in my repo today.
 
 </details>
+
+<details>
+
+<summary>Day 75/100 (2/5/2022):</summary>
+
+- 75% of this challenge is done! What a quick 75 days!
+- React review, git review
+
+</details>
