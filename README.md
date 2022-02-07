@@ -1170,3 +1170,11 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - React review, git review
 
 </details>
+
+<details>
+
+<summary>Day 76/100 (2/6/2022):</summary>
+
+- Let's get into some responsive components in Vue.
+
+</details>
