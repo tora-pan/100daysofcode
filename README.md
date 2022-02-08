@@ -1178,3 +1178,18 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Let's get into some responsive components in Vue.
 
 </details>
+
+<details>
+
+<summary>Day 77/100 (2/7/2022):</summary>
+
+- Work on a new blog project.
+
+  - Created the Navbar
+  - Created the Homepage
+    - BlogCard Component
+    - FeaturedCard Component
+
+- Plan on connecting Firebase tomorrow for Auth and Data Persistance.
+
+</details>
