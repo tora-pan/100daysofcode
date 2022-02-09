@@ -1193,3 +1193,12 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Plan on connecting Firebase tomorrow for Auth and Data Persistance.
 
 </details>
+
+<details>
+
+<summary>Day 78/100 (2/8/2022):</summary>
+
+- Added the blog detail page and functionality using Vuex.
+  - tomorrow I will connect Firebase and start storing the data there.
+
+</details>
