@@ -1202,3 +1202,11 @@ I think I will be working on DSAs for a few weeks straight and then get back int
   - tomorrow I will connect Firebase and start storing the data there.
 
 </details>
+
+<details>
+
+<summary>Day 79/100 (2/9/2022):</summary>
+
+- Vue overview with Devlin.
+
+</details>
