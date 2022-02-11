@@ -1210,3 +1210,11 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Vue overview with Devlin.
 
 </details>
+
+<details>
+
+<summary>Day 80/100 (2/10/2022):</summary>
+
+- Add firebase auth and data persistance to the blog
+
+</summary>
