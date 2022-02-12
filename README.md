@@ -1218,3 +1218,11 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Add firebase auth and data persistance to the blog
 
 </summary>
+
+<details>
+
+<summary>Day 81/100 (2/11/2022):</summary>
+
+- work on the UI a bit and look into data persistance with firebase.
+
+</details>
