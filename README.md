@@ -1226,3 +1226,15 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - work on the UI a bit and look into data persistance with firebase.
 
 </details>
+
+<summary>Day 82/100 (2/12/2022):</summary>
+
+- work on the UI a bit and look into data persistance with firebase.
+
+</details>
+
+<summary>Day 83/100 (2/13/2022):</summary>
+
+- Fix Firebase bugs, go viral on LinkedIn
+
+</details>
