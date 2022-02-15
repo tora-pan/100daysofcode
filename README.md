@@ -1238,3 +1238,11 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Fix Firebase bugs, go viral on LinkedIn
 
 </details>
+
+<details>
+
+<summary>Day 84/100 (2/14/2022):</summary>
+
+- Completed an assessment for a company on HackerRank.
+
+</details>
