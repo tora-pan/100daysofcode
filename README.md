@@ -1246,3 +1246,12 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Completed an assessment for a company on HackerRank.
 
 </details>
+
+<details>
+
+<summary>Day 85/100 (2/15/2022):</summary>
+
+- Completed an assessment for a company on HackerRank. (again) 
+  - Most likely failed but it was fun.
+
+</details>
