@@ -1263,3 +1263,13 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 - Going to work on my Vue Blog project and set up a admin route for all of the Blog CRUD functionality.
 
 </details>
+
+<details>
+
+<summary>Day 87/100 (2/17/2022):</summary>
+
+Long drive to Sacramento .
+
+Only coding today consists of podcasts.
+
+</details>
