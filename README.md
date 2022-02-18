@@ -1217,7 +1217,7 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 
 - Add firebase auth and data persistance to the blog
 
-</summary>
+</details>
 
 <details>
 
@@ -1251,7 +1251,15 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 
 <summary>Day 85/100 (2/15/2022):</summary>
 
-- Completed an assessment for a company on HackerRank. (again) 
+- Completed an assessment for a company on HackerRank. (again)
   - Most likely failed but it was fun.
+
+</details>
+
+<details>
+
+<summary>Day 86/100 (2/16/2022):</summary>
+
+- Going to work on my Vue Blog project and set up a admin route for all of the Blog CRUD functionality.
 
 </details>
