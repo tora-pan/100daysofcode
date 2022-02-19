@@ -1255,3 +1255,13 @@ I think I will be working on DSAs for a few weeks straight and then get back int
   - Most likely failed but it was fun.
 
 </details>
+
+<details>
+
+<summary>Day 86/100 (2/18/2022):</summary>
+
+Long drive to Sacramento .
+
+Only coding today consists of podcasts.
+
+</details>
