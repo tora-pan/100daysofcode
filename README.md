@@ -1268,8 +1268,36 @@ I think I will be working on DSAs for a few weeks straight and then get back int
 
 <summary>Day 87/100 (2/17/2022):</summary>
 
+- Work on the Vue Blog and get ready for my Sacramento trip.
+
+</details>
+
+<details>
+
+<summary>Day 88/100 (2/18/2022):</summary>
+
 Long drive to Sacramento .
 
 Only coding today consists of podcasts.
 
 </details>
+
+<details>
+
+<summary>Day 89/100 (2/19/2022):</summary>
+
+Spent time with the familly and was only able to listen to podcasts and read a bit of "Clean Code"
+
+</details>
+
+<details>
+
+<summary>Day 89/100 (2/20/2022):</summary>
+
+- Another long ride home from Sacramento.
+- Spent 5 hours listening to youtube videos on QA Engineering and testing.
+
+</details>
+
+<details>
+
