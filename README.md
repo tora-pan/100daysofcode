@@ -1301,3 +1301,11 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 
 <details>
 
+<summary>Day 91/100 (2/22/2022):</summary>
+
+- Take a break from Vue to freshen up my React skills with another flashcard type project.
+
+I want this project to be a simple flashcard app stored in local storage for now where the user can reveal the translation for a word by hovering their mouse over the word.
+
+</details>
+
