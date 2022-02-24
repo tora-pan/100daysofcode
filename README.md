@@ -1312,3 +1312,11 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - work on the admin page by adding a form to add new blog posts.
 
 </details>
+
+<details>
+
+<summary>Day 92/100 (2/23/2022):</summary>
+
+- Finally worked out all of the bugs in the template and implemented the update blog feature.
+
+</details>
