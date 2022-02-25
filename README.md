@@ -1320,3 +1320,11 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - Finally worked out all of the bugs in the template and implemented the update blog feature.
 
 </details>
+
+<details>
+
+<summary>Day 93/100 (2/24/2022):</summary>
+
+- Worked on the vue-blog while attending JS.LA meetup (twitch)
+
+</details>
