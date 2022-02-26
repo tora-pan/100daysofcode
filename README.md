@@ -1328,3 +1328,12 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - Worked on the vue-blog while attending JS.LA meetup (twitch)
 
 </details>
+
+<details>
+
+<summary>Day 94/100 (2/25/2022):</summary>
+
+- Add testing to the vue-blog.
+- Work on vue reactivity.
+
+</details>
