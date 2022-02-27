@@ -1337,3 +1337,14 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - Work on vue reactivity.
 
 </details>
+
+<details>
+
+<summary>Day 95/100 (2/26/2022):</summary>
+
+- Spent the beginning of the evening talking to my buddy Steven about how to break into the job market.
+- Did some research on what website/app that I would like to clone and I think I have decided to go with a LinkedIn clone.
+
+</details>
+
+</details>
