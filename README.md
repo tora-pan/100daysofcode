@@ -1343,8 +1343,16 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 <summary>Day 95/100 (2/26/2022):</summary>
 
 - Spent the beginning of the evening talking to my buddy Steven about how to break into the job market.
-- Did some research on what website/app that I would like to clone and I think I have decided to go with a LinkedIn clone.
+- Did some research on what website/app that I would like to clone and I think I have decided to go with a Reddit clone.
 
 </details>
+
+<details>
+
+<summary>Day 96/100 (2/27/2022):</summary>
+
+`npx create-react-app reddit-clone --template redux`
+
+- going to build out the skeleton of the reddit clone.
 
 </details>
