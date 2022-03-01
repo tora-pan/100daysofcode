@@ -1356,3 +1356,13 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - going to build out the skeleton of the reddit clone.
 
 </details>
+
+<details>
+
+<summary>Day 97/100 (2/28/2022):</summary>
+
+- Continue with the react reddit clone.
+- Freshen up my knowledge of RTK.
+- Apply to a few jobs on linkedin/indeed.
+
+</details>
