@@ -1366,3 +1366,13 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - Apply to a few jobs on linkedin/indeed.
 
 </details>
+
+<details>
+
+<summary>Day 98/100 (3/1/2022):</summary>
+
+- Happy Birthday to my beautiful wife Sawako!
+- Quick coding session on the Reddit clone
+- A bit of refresh on React Hooks.
+
+</details>
