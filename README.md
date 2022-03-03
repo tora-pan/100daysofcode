@@ -1376,3 +1376,12 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - A bit of refresh on React Hooks.
 
 </details>
+
+<details>
+
+<summary>Day 99/100 (3/2/2022):</summary>
+
+- Spoke with Sean @ Givinga about how awesome his company is. (fingerscrossed)
+- Time to study study study!
+
+</details>
