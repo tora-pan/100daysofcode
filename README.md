@@ -1385,3 +1385,12 @@ Spent time with the familly and was only able to listen to podcasts and read a b
 - Time to study study study!
 
 </details>
+
+<details>
+
+<summary>Day 100/100 (3/3/2022):</summary>
+
+- the final day has come!
+- spent the evening working with Next.js|Tailwind | Markdown
+
+</details>
